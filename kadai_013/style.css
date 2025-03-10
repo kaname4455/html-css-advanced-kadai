@@ -11,69 +11,6 @@ p {
 #main-visual>img {
   width: 100%;
 }
-body {
-  mix-width: 375px;
-  margin: 0
-}
-#nav-pc {
-  display:none;
-}
-#menu-sp {
-  float:right;
-  padding: 0px;
-  display: none;
-}
-#nav-sp {
-  position: absolute;
-  background-color: #ce933e;
-  top: 0;
-  left: 0;
-  width: 100px;
-  height:100px;
-  display:none;
-  z-index: 100;
-  display: none;
-}
-#nav-sp ul {
-  padding-left: 0;
-}
-#nav-sp li {
-  list-style:none;
-}
-#close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-#logo-sp {
-  margin: 80px 0px 30px 20px;
-}
-#nav-sp a {
-  display: block;
-}
-nav-sp>a:link {
-  color: #ffffff;
-}
-nav-sp>a:visited {
-  color: #ffffff;
-}
-nav-sp>a:hover {
-  color: #ffffff;
-  text-decoration: underline;
-}
-nav-sp>a:active {
-  color: #ffffff;
-}
-nav-sp>.menu {
-  text-decoration: none;
-  display: block;
-  margin: 0 20px 0 20px;
-  height:44px;
-  font-size:16px;
-  background-image: url("images/arrow.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-}
 
 /*================
 PC用のスタイル 
@@ -121,4 +58,68 @@ PC用のスタイル
   #nav-pc>a:active {
     color: #0d0d0d;
   }
+}
+
+body {
+  mix-width: 375px;
+  margin: 0
+}
+#nav-pc {
+  display:none;
+}
+#menu-sp {
+  float:right;
+  padding: 0px;
+  display: none;
+}
+#nav-sp {
+  position: absolute;
+  background-color: #ce933e;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height :100px;
+  display:none;
+  z-index: 100;
+  display: none;
+}
+#nav-sp ul {
+  padding-left: 0;
+}
+#nav-sp li {
+  list-style:none;
+}
+#close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#logo-sp {
+  margin: 80px 0px 30px 20px;
+}
+#nav-sp a {
+  display: block;
+}
+nav-sp a:link {
+  color: #ffffff;
+}
+nav-sp a:visited {
+  color: #ffffff;
+}
+nav-sp a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+nav-sp a:active {
+  color: #ffffff;
+}
+nav-sp .menu {
+  text-decoration: none;
+  display: block;
+  margin: 0 20px 0 20px;
+  height:44px;
+  font-size:16px;
+  background-image: url("images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: right top;
 }
