@@ -97,20 +97,20 @@ body {
 #nav-sp a {
   display: block;
 }
-nav-sp a:link {
+#nav-sp a:link {
   color: #ffffff;
 }
-nav-sp a:visited {
+#nav-sp a:visited {
   color: #ffffff;
 }
-nav-sp a:hover {
+#nav-sp a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
-nav-sp a:active {
+#nav-sp a:active {
   color: #ffffff;
 }
-nav-sp .menu {
+#nav-sp .menu {
   text-decoration: none;
   display: block;
   margin: 0 20px 0 20px;
