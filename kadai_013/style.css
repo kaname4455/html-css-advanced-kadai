@@ -69,6 +69,7 @@ body {
 #menu-sp {
   float:right;
   padding: 0px;
+  display:none;
 }
 #nav-sp {
   position: absolute;
@@ -79,6 +80,7 @@ body {
   height :100px;
   display: none;
   z-index: 100;
+  display:none;
 }
 #nav-sp ul {
   padding-left: 0;
