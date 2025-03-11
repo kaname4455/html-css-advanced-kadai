@@ -58,7 +58,6 @@ PC用のスタイル
   #nav-pc>a:active {
     color: #0d0d0d;
   }
-}
 
 body {
   mix-width: 375px;
@@ -70,7 +69,6 @@ body {
 #menu-sp {
   float:right;
   padding: 0px;
-  display: none;
 }
 #nav-sp {
   position: absolute;
@@ -79,9 +77,8 @@ body {
   left: 0;
   width: 100px;
   height :100px;
-  display:none;
-  z-index: 100;
   display: none;
+  z-index: 100;
 }
 #nav-sp ul {
   padding-left: 0;
@@ -122,4 +119,6 @@ nav-sp .menu {
   background-image: url("images/arrow.png");
   background-repeat: no-repeat;
   background-position: right top;
+  }
+
 }
