@@ -2,7 +2,6 @@
 body {
   font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial,
     sans-serif;
-    z-index: 98;
 }
 
 p {
@@ -82,7 +81,7 @@ body {
 
 #menu-sp {
   float: right;
-  padding: 0px;
+  padding: 0;
 }
 #nav-sp {
   position: absolute;
@@ -92,7 +91,7 @@ body {
   width: 100px;
   height :100px;
   display: none;
-  z-index: 100;
+  z-index: 1000;
 }
 #nav-sp ul {
   padding-left: 0;
