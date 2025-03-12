@@ -2,6 +2,7 @@
 body {
   font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial,
     sans-serif;
+    z-index: 98;
 }
 
 p {
@@ -10,6 +11,7 @@ p {
 
 #main-visual>img {
   width: 100%;
+  z-index: 99;
 }
 
 /*================
@@ -21,8 +23,14 @@ PC用のスタイル
     max-width: 1080px;
     min-width: 960px;
     margin: 0 auto 0 auto;
+  #nav-sp {
+    display:none;
+}
+  #menu-sp {
+    display:none;
+}
   }
-
+   }
   /* ヘッダー */
   header {
     display: flex;
@@ -58,18 +66,23 @@ PC用のスタイル
   #nav-pc>a:active {
     color: #0d0d0d;
   }
-
+/*================
+SP用のスタイル 
+=================*/
+@media screen and (max-width: 767px) {
+  /* 横幅設定 */
+  #nav-pc {
+    display:none;
 body {
-  mix-width: 375px;
-  margin: 0
+      min-width: 375px;
+      margin: 0
+    }
 }
-#nav-pc {
-  display:none;
-}
+  }
+
 #menu-sp {
-  float:right;
+  float: right;
   padding: 0px;
-  display:none;
 }
 #nav-sp {
   position: absolute;
@@ -80,7 +93,6 @@ body {
   height :100px;
   display: none;
   z-index: 100;
-  display:none;
 }
 #nav-sp ul {
   padding-left: 0;
@@ -122,5 +134,3 @@ body {
   background-repeat: no-repeat;
   background-position: right top;
   }
-
-}
